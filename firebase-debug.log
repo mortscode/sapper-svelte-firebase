@@ -1,37 +1,37 @@
-[debug] [2019-06-26T22:21:08.210Z] ----------------------------------------------------------------------
-[debug] [2019-06-26T22:21:08.212Z] Command:       /Users/scotmortimer/.nvm/versions/node/v8.16.0/bin/node /usr/local/bin/firebase serve
-[debug] [2019-06-26T22:21:08.212Z] CLI Version:   7.0.1
-[debug] [2019-06-26T22:21:08.212Z] Platform:      darwin
-[debug] [2019-06-26T22:21:08.212Z] Node Version:  v8.16.0
-[debug] [2019-06-26T22:21:08.213Z] Time:          Wed Jun 26 2019 15:21:08 GMT-0700 (PDT)
-[debug] [2019-06-26T22:21:08.213Z] ----------------------------------------------------------------------
+[debug] [2019-06-26T22:40:48.966Z] ----------------------------------------------------------------------
+[debug] [2019-06-26T22:40:48.968Z] Command:       /Users/scotmortimer/.nvm/versions/node/v8.16.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-26T22:40:48.968Z] CLI Version:   7.0.1
+[debug] [2019-06-26T22:40:48.969Z] Platform:      darwin
+[debug] [2019-06-26T22:40:48.969Z] Node Version:  v8.16.0
+[debug] [2019-06-26T22:40:48.969Z] Time:          Wed Jun 26 2019 15:40:48 GMT-0700 (PDT)
+[debug] [2019-06-26T22:40:48.970Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-06-26T22:21:08.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-06-26T22:21:08.223Z] > authorizing via signed-in user
-[debug] [2019-06-26T22:21:08.223Z] [iam] checking project instrument-burgerweek-2019 for permissions ["firebase.projects.get"]
-[debug] [2019-06-26T22:21:08.225Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/instrument-burgerweek-2019:testIamPermissions  
+[debug] [2019-06-26T22:40:48.979Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-26T22:40:48.979Z] > authorizing via signed-in user
+[debug] [2019-06-26T22:40:48.979Z] [iam] checking project instrument-burgerweek-2019 for permissions ["firebase.projects.get"]
+[debug] [2019-06-26T22:40:48.981Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/instrument-burgerweek-2019:testIamPermissions  
 
-[debug] [2019-06-26T22:21:08.376Z] <<< HTTP RESPONSE 200
-[debug] [2019-06-26T22:21:08.378Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/instrument-burgerweek-2019  
+[debug] [2019-06-26T22:40:49.183Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-26T22:40:49.185Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/instrument-burgerweek-2019  
  
-[debug] [2019-06-26T22:21:08.531Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-26T22:40:49.290Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/scotmortimer/Development/Instrument/Burgerweek/sapper-firebase-template'...
 [info] 
 [warn] ⚠  Your requested "node" version "10" doesn't match your global version "8"
-[debug] [2019-06-26T22:21:08.542Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/238461560870/clients/_:getWebAppConfig  
+[debug] [2019-06-26T22:40:49.299Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/238461560870/clients/_:getWebAppConfig  
  
-[debug] [2019-06-26T22:21:08.542Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/238461560870:getServerAppConfig  
+[debug] [2019-06-26T22:40:49.299Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/238461560870:getServerAppConfig  
  
-[debug] [2019-06-26T22:21:08.659Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-26T22:40:49.422Z] <<< HTTP RESPONSE 200
 [info] ✔  functions: Emulator started at http://localhost:5001
-[debug] [2019-06-26T22:21:08.716Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-26T22:40:49.470Z] <<< HTTP RESPONSE 200
 [info] i  functions: Watching "/Users/scotmortimer/Development/Instrument/Burgerweek/sapper-firebase-template/functions" for Cloud Functions...
 [info] i  hosting: Serving hosting files from: static
 [info] ✔  hosting: Local server: http://localhost:5000
-[debug] [2019-06-26T22:21:09.006Z] Functions runtime initialized.
-[debug] [2019-06-26T22:21:09.006Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
-[debug] [2019-06-26T22:21:09.082Z] firebase-admin has been stubbed.
+[debug] [2019-06-26T22:40:49.740Z] Functions runtime initialized.
+[debug] [2019-06-26T22:40:49.740Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-26T22:40:49.812Z] firebase-admin has been stubbed.
 [warn] ⚠  Error: Cannot find module './__sapper__/build/server/server'
     at Function.Module._resolveFilename (module.js:548:15)
     at Function.Module._load (module.js:475:25)
